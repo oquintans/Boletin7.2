@@ -29,9 +29,8 @@ public class Condicional {
         numero1=n1;
         numero2=n2;
         if(n1>=n2){
-            JOptionPane.showMessageDialog(null,n1-n2);
-        }else{
-            JOptionPane.showMessageDialog(null, n2+n1);
+            JOptionPane.showMessageDialog(null,"Resta= "+(n1-n2));
+        }
+        JOptionPane.showMessageDialog(null,"Suma= "+(n1+n2));
         }
     }
-}
